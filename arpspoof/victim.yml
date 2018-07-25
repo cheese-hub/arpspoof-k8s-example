@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: victim
+  labels:
+    group: arpspoof
+spec:
+  containers:
+  - name: victim
+    image: timwang/ieeetrycybsecurityvncdesktop:9.0

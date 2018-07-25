@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-arpsoof
+spec:
+  podSelector: {}
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          group: arpspoof
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          group: arpspoof
