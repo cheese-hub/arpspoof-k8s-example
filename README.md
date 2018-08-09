@@ -112,7 +112,7 @@ root@hacker:/app# curl 10.32.0.4
 Nada
 ```
 
-This is achieved by using the [arpspoof/network.yml] Network Policy. Note that
+This is achieved by using the [arpspoof/network.yml](arpspoof/network.yml) Network Policy. Note that
 it appears to be possible to use simple labels to restrict both ingress and
 egress on individual pods.
 
