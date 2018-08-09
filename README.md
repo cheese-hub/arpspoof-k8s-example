@@ -10,7 +10,7 @@ instructions. We've forked it to modify the default network in
 Network Policy required for this project but is not as restrictive as Calico.
 
 ```
-git clone git clone https://github.com/cheese-hub/kubeadm-bootstrap
+git clone https://github.com/cheese-hub/kubeadm-bootstrap
 cd kubeadm-bootstrap
 sudo ./install-kubeadm.bash
 sudo -E ./init-master.bash
